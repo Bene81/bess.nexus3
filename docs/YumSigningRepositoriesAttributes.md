@@ -1,0 +1,10 @@
+# Bess.IO.Rest.Nexus3.Model.YumSigningRepositoriesAttributes
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**Keypair** | **string** | PGP signing key pair (armored private key e.g. gpg - -export-secret-key - -armor) | [optional] 
+**Passphrase** | **string** | Passphrase to access PGP signing key | [optional] 
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+

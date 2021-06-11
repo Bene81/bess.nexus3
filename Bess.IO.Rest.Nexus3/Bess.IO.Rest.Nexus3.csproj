@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>Bess.IO.Rest.Nexus3</AssemblyName>
+    <PackageId>Bess.Nexus3Client</PackageId>
+    <OutputType>Library</OutputType>
+    <Authors>BESS</Authors>
+    <Company>BESS</Company>
+    <AssemblyTitle>Nexus OSS 3 REST API Client Library</AssemblyTitle>
+    <Description>
+		A Nexus OSS 3 REST API client library generated from Sonatypes
+		API JSON scheme.
+		Minor manual adaptions have been made to get the code building
+		and running plus allowing <em>Basic Authentication</em> by
+		setting the <em>username</em> and <em>password</em> in the
+		<em>ApiClient</em>'s <em>Configuration</em>.
+		<br />
+		This API client was generated from JSON scheme provided by NEXUS
+		OSS 3.30.1-01 server and might not be compatible with previous
+		or future versions of NEXUS OSS 3.
+    </Description>
+    <Copyright>Copyright (C) 2021 BESS</Copyright>
+    <PackageLicenseExpression>EPL-1.0</PackageLicenseExpression>
+    <GenerateRuntimeConfigurationFiles>true</GenerateRuntimeConfigurationFiles>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <GenerateBindingRedirectsOutputType>true</GenerateBindingRedirectsOutputType>
+    <RootNamespace>Bess.IO.Rest.Nexus3</RootNamespace>
+    <Version>1.0.0-alpha</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FubarCoder.RestSharp.Portable.Core" Version="4.0.7" />
+    <PackageReference Include="FubarCoder.RestSharp.Portable.HttpClient" Version="4.0.7" />
+    <PackageReference Include="Newtonsoft.Json" Version="10.0.3" />
+    <PackageReference Include="JsonSubTypes" Version="1.2.0" />
+  </ItemGroup>
+</Project>
