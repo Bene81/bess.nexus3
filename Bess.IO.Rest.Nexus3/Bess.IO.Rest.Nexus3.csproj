@@ -11,21 +11,22 @@
 		A Nexus OSS 3 REST API client library generated from Sonatypes
 		API JSON scheme.
 		Minor manual adaptions have been made to get the code building
-		and running plus allowing <em>Basic Authentication</em> by
-		setting the <em>username</em> and <em>password</em> in the
-		<em>ApiClient</em>'s <em>Configuration</em>.
-		<br />
+		and running plus allowing 'Basic Authentication' by
+		setting the 'username' and 'password' in the
+		'ApiClient''s 'Configuration'.
+
 		This API client was generated from JSON scheme provided by NEXUS
 		OSS 3.30.1-01 server and might not be compatible with previous
 		or future versions of NEXUS OSS 3.
     </Description>
-    <Copyright>Copyright (C) 2021 BESS</Copyright>
     <PackageLicenseExpression>EPL-1.0</PackageLicenseExpression>
     <GenerateRuntimeConfigurationFiles>true</GenerateRuntimeConfigurationFiles>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <GenerateBindingRedirectsOutputType>true</GenerateBindingRedirectsOutputType>
     <RootNamespace>Bess.IO.Rest.Nexus3</RootNamespace>
     <Version>1.0.0-alpha</Version>
+    <PackageProjectUrl>https://github.com/Bene81/bess.nexus3</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Bene81/bess.nexus3</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
